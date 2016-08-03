@@ -11,5 +11,5 @@ I wanted to control the display from a Raspberry Pi, but the example code I got 
 
 **textdot.py** will let you scroll a text of arbitrary length on the flipdot display. It's using a 5x7 bitmap font which is hard to read, but works. 
 
-** imagedot.py** expects a GIF file, which can be animated. The image should be exactly the same size as the matrix, 28x14, and the script loops through the frames and animates the flipdots. The GIF I used in the example is not black-and-white, but the script assumes that any color besides white is "black", except when shown on the flipdot colors are inverted... I might change that. :)
+**imagedot.py** expects a GIF file, which can be animated. The image should be exactly the same size as the matrix, 28x14, and the script loops through the frames and animates the flipdots. The GIF I used in the example is not black-and-white, but the script assumes that any color besides white is "black", except when shown on the flipdot colors are inverted... I might change that. :)
 
